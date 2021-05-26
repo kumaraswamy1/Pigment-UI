@@ -1,0 +1,23 @@
+:root {
+	--primary-color: #6a59ff;
+	--secondary-color: #ff579a;
+	--success-color: #4caf50;
+	--danger-color: #d32f2f;
+	--info-color: #31d2f2;
+}
+
+:root {
+	--primary-light-color: #a387ff;
+	--secondary-light-color: #ff8ccb;
+	--success-light-color: #80e27e;
+	--danger-light-color: #ff6659;
+	--info-light-color: #78ffff;
+}
+
+:root {
+	--primary-dark-color: #222ecb;
+	--secondary-dark-color: #c7156c;
+	--success-dark-color: #087f23;
+	--danger-dark-color: #9a0007;
+	--info-dark-color: #00a0bf;
+}

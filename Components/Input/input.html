@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Input - pigment</title>
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/stackoverflow-dark.min.css"
+		integrity="sha512-9F4w40pQJloG92QgszKGVFODKAkZ70xtcDe2IPcVELXMmkxkojfL6jcP6XSf1NTf4yVc3K0T9h/0gPp8bVIn6w=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+		integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+	<link rel="stylesheet" href="/CSS/docs.css" />
+	<link rel="stylesheet" href="/CSS/nav.css" />
+	<link rel="stylesheet" href="/CSS/component.css" />
+
+</head>
+
+<body>
+
+	<div class="mobile-nav-button">
+		<div class="brand">
+			<h1><a href="/index.html">Pigment</a></h1>
+
+		</div>
+		<button class="navigation"><i class="fas fa-bars fa-2x"></i></button>
+
+	</div>
+
+	<div class="desktop-main-nav">
+		<div class="brand">
+			<h1><a href="/index.html">Pigment</a></h1>
+		</div>
+
+		<div class="docs">
+			<h3><a href="/docs.html">Docs</a></h3>
+			<span>v.1.0.0</span>
+		</div>
+
+	</div>
+
+	<div class="row ">
+		<div class="side-nav" id="side-nav">
+			<ul>
+				<li><a href="/Components/Avatar/avatar.html">Avatar</a></li>
+				<li><a href="/Components/Alert/alert.html">Alert</a></li>
+				<li><a href="/Components/Badge/badge.html">Badge</a></li>
+				<li><a href="/Components/Button/button.html">Button</a></li>
+				<li><a href="/Components/Card/card.html">Card</a></li>
+				<li><a href="/Components/Image/image.html">Image</a></li>
+				<li><a href="/Components/Input/input.html">Input</a></li>
+				<li><a href="/Components/Lists/list.html">Lists</a></li>
+				<li><a href="/Components/Navigation/navigation.html">Navigation</a></li>
+				<li><a href="/Components/Modal/modal.html">Modal</a></li>
+				<li><a href="/Components/Rating/rating.html">Rating</a></li>
+				<li><a href="/Components/Grids/grid.html">Grid</a></li>
+				<li><a href="/Components/TextUtilities/textUtilities.html">Text Utilities</a></li>
+				<li><a href="/Components/Toast/toast.html">Toast</a></li>
+			</ul>
+		</div>
+
+		<div class="show-content">
+			<section>
+				<h1 class="h1-docs">Inputs</h1>
+				<p class="p-docs">Inputs are used to collect information or a response from the user such as username,
+					decisons.</p>
+				<h2>Simple Login Input</h2>
+
+
+				<div class="center">
+					<div class="input">
+						<form>
+							<div class=" h1-login center">
+								<h1>LOGIN</h1>
+							</div>
+							<div>
+								<label class=" email-label label-size" for="email">Email</label>
+							</div>
+							<input class="email-input" type="email" name="email" id="email" />
+							<div>
+								<label class="password-label label-size" for="password ">Password</label>
+							</div>
+							<input class="password-input" type="password" name="password" id="password" />
+							<div class="center">
+								<button class="btn-block btn-default btn-primary">Submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="highlight-code">
+					<pre>
+<code class="html"  id="login-form-code" >
+ &lt;div class="center"&gt;
+  &lt;div class="input"&gt;
+   &lt;form&gt;
+    &lt;div class="brand h1-login center"&gt;
+     &lt;h1&gt;Pigment&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;label class=" email-label label-size" for="email"&gt;Email&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;input class="email-input" type="email" name="email" id="email" /&gt;
+    &lt;div&gt;
+     &lt;label class="password-label label-size" for="password "&gt;Password&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;input class="password-input" type="password" name="password" id="password" /&gt;
+    &lt;div class="center"&gt;
+     &lt;button class="btn-block btn-default btn-primary"&gt;Submit&lt;/button&gt;
+    &lt;/div&gt;
+   &lt;/form&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+	</code>
+	</pre>
+
+				</div>
+			</section>
+
+			<div class="copy">
+				<button class="copy-btn" data-clipboard-target="#login-form-code">
+					<i class="far fa-copy"></i>
+				</button>
+			</div>
+
+			<section>
+				<h1>Radio Button</h1>
+				<div class="example-border">
+					<div class="center">
+						<div class=" radio-btn">
+							<input type="radio" name="radio-input" id="radio-checked" checked />
+							<label for="radio-checked">Checked</label>
+
+							<input type="radio" name="radio-input" id="radio-unchecked" Unchecked />
+							<label for="radio-unchecked">Unchecked</label>
+
+
+							<input type="radio" name="radio-input" id="radio-disabled" disabled />
+							<label for="radio-disabled">Disabled</label>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="highlight-code">
+					<pre>
+	<code class="html"  id="radio-btn-code" >
+ &lt;div class="radio-btn"&gt;
+  &lt;input type="radio" name="radio-input" id="radio-checked" checked /&gt;
+  &lt;label for="radio-checked"&gt;Checked&lt;/label&gt;
+
+  &lt;input type="radio" name="radio-input" id="radio-unchecked" Unchecked /&gt;
+  &lt;label for="radio-unchecked"&gt;Unchecked&lt;/label&gt;
+
+
+  &lt;input type="radio" name="radio-input" id="radio-disabled" disabled /&gt;
+  &lt;label for="radio-disabled"&gt;Disabled&lt;/label&gt;
+ &lt;/div&gt;
+	</code>
+	</pre>
+				</div>
+			</section>
+
+			<div class="copy">
+				<button class="copy-btn" data-clipboard-target="#radio-btn-code">
+					<i class="far fa-copy"></i>
+				</button>
+			</div>
+
+			<section>
+				<h1>checkbox</h1>
+				<div class="example-border">
+					<div class="center">
+						<div class="checkbox">
+							<input type="checkbox" name="checkbox-input" id="checkbox-checked" checked />
+							<label for="checkbox-checked">Checked</label>
+
+							<input type="checkbox" name="checkbox-input" id="checkbox-unchecked" Unchecked />
+							<label for="checkbox-unchecked">Unchecked</label>
+
+							<input type="checkbox" name="checkbox-input" id="checkbox-disabled" disabled />
+							<label for="checkbox-disabled">Disabled</label>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="highlight-code">
+					<pre>
+<code class="html"  id="checkbox-code" >
+ &lt;div class="checkbox"&gt;
+  &lt;input type="checkbox" name="checkbox-input" id="checkbox-checked" checked /&gt;
+  &lt;label for="checkbox-checked"&gt;Checked&lt;/label&gt;
+
+  &lt;input type="checkbox" name="checkbox-input" id="checkbox-unchecked" Unchecked /&gt;
+  &lt;label for="checkbox-unchecked"&gt;Unchecked&lt;/label&gt;
+
+  &lt;input type="checkbox" name="checkbox-input" id="checkbox-disabled" disabled /&gt;
+  &lt;label for="checkbox-disabled"&gt;Disabled&lt;/label&gt;
+ &lt;/div&gt;
+ 
+</code>
+</pre>
+				</div>
+			</section>
+
+			<div class="copy">
+				<button class="copy-btn" data-clipboard-target="#checkbox-code">
+					<i class="far fa-copy"></i>
+				</button>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="center">
+				<p> 2021 | Inspired by <span><a href="https://getbootstrap.com/"> Bootstrap</a></span></p>
+			</div>
+			<div class="center social-links">
+				<a href="https://twitter.com/thekumaraswamy"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.linkedin.com/in/kumaraswamya/"><i class="fab fa-linkedin-in"></i></a>
+				<a href="https://www.instagram.com/thekumaraswamy/"><i class="fab fa-instagram"></i></a>
+			</div>
+		</footer>
+
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+	<script>
+		hljs.highlightAll();
+	</script>
+	<script src="/main.js"></script>
+	<script src="./input.js"></script>
+</body>
+
+</html>
