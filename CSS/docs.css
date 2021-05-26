@@ -7,6 +7,10 @@
 body {
 	font-family: "Open Sans", sans-serif;
 }
+html,
+body {
+	overflow-x: hidden;
+}
 
 .example-border {
 	padding: 1rem;
