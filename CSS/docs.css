@@ -6,9 +6,6 @@
 }
 body {
 	font-family: "Open Sans", sans-serif;
-}
-html,
-body {
 	overflow-x: hidden;
 }
 
@@ -18,7 +15,7 @@ body {
 	border-radius: 1rem;
 	background: #ffffff;
 	box-shadow: 20px 20px 60px #e7e7e7, -20px -20px 60px #ffffffcb;
-	margin: 1rem;
+	margin: 3rem;
 }
 
 .img-meaning {
