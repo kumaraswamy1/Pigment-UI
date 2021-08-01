@@ -79,10 +79,9 @@
 
 .eCommerce-card .badge-primary {
 	background-color: var(--secondary-color);
-	padding: 0.2rem;
+	height: 1em;
 	border: none;
 	color: white;
-	width: max-content;
 	position: relative;
 	bottom: 22rem;
 	font-size: small;
