@@ -1,5 +1,5 @@
 :root {
-	--primary-color: #6a59ff;
+	--primary-color: #005ce6;
 	--secondary-color: #ff579a;
 	--success-color: #4caf50;
 	--danger-color: #d32f2f;
@@ -7,7 +7,7 @@
 }
 
 :root {
-	--primary-light-color: #a387ff;
+	--primary-light-color: #6488ff;
 	--secondary-light-color: #ff8ccb;
 	--success-light-color: #80e27e;
 	--danger-light-color: #ff6659;
@@ -15,7 +15,7 @@
 }
 
 :root {
-	--primary-dark-color: #222ecb;
+	--primary-dark-color: #0034b3;
 	--secondary-dark-color: #c7156c;
 	--success-dark-color: #087f23;
 	--danger-dark-color: #9a0007;
