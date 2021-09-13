@@ -4,17 +4,13 @@
 	--success-color: #4caf50;
 	--danger-color: #d32f2f;
 	--info-color: #31d2f2;
-}
 
-:root {
 	--primary-light-color: #6488ff;
 	--secondary-light-color: #ff8ccb;
 	--success-light-color: #80e27e;
 	--danger-light-color: #ff6659;
 	--info-light-color: #78ffff;
-}
 
-:root {
 	--primary-dark-color: #0034b3;
 	--secondary-dark-color: #c7156c;
 	--success-dark-color: #087f23;

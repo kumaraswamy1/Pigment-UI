@@ -5,6 +5,9 @@
 	border: 0.1rem solid rgba(0, 0, 0, 0.096);
 	margin: auto;
 }
+a {
+	text-decoration: none;
+}
 
 .simple-card h1 {
 	padding: 0.5rem;
@@ -56,25 +59,38 @@
 	font-weight: 400;
 }
 
+.eCommerce-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .eCommerce-card img {
 	width: 14rem;
+	height: 15rem;
 }
 
 .eCommerce-card {
+	margin: 0.1rem;
 	width: 14rem !important;
-	border: 0.1rem solid rgba(0, 0, 0, 0.096);
-	margin: auto;
-	width: 50%;
+	border: 1px solid #f4f5f7;
+	box-shadow: 0 2px 6px rgb(0 0 0 / 5%);
+
+	height: 26rem;
 }
 .eCommerce-card h1 {
-	font-size: medium;
+	font-size: large;
 	padding-left: 0.5rem;
 	padding-top: 0.5rem;
+	color: #080808ce;
 }
 .eCommerce-card h2 {
+	font-size: medium;
+}
+.eCommerce-card h3 {
 	padding-left: 0.5rem;
 	padding-top: 0.5rem;
 	font-size: small;
+	color: grey;
 }
 
 .eCommerce-card .badge-primary {
@@ -83,20 +99,7 @@
 	border: none;
 	color: white;
 	position: relative;
-	bottom: 22rem;
+	bottom: 18.8em;
 	font-size: small;
-	font-weight: 300;
-}
-
-.eCommerce-card .btn-primary {
-	background-color: var(--primary-color);
-	color: white;
-	border: none;
-}
-
-.eCommerce-card .btn {
-	padding: rem;
-	border-radius: 0.5rem;
-	margin: 0.5rem;
-	font-size: medium;
+	font-weight: 800;
 }
