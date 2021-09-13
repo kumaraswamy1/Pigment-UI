@@ -1,0 +1,28 @@
+.toast-content {
+	background-color: var(--secondary-light-color);
+	width: 15rem;
+	border-top: 0.2rem solid var(--primary-color);
+	padding: 0.5rem;
+	position: fixed;
+	bottom: 2rem;
+}
+
+.toast-hide {
+	visibility: hidden;
+}
+
+.toast-show {
+	visibility: visible;
+}
+.toast-show {
+	animation: disapper infinite;
+	animation-duration: 5s;
+}
+@keyframes disapper {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
