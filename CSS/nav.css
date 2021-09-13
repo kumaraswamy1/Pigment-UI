@@ -19,10 +19,15 @@
 	margin: 1rem;
 	padding: 1rem;
 }
+.sticky {
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+}
 
 .side-nav li {
 	list-style: none;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	padding: 0.5rem;
 }
 
@@ -35,9 +40,12 @@
 	color: rgb(0, 0, 0);
 }
 
-.side-nav li :hover {
+.side-nav li :active {
 	font-size: 1.55rem;
 	color: #131313f5;
+}
+.desktop-main-nav {
+	display: none;
 }
 
 .mobile-nav-button {
@@ -62,9 +70,9 @@
 
 .show {
 	display: flex;
-	margin: 1rem;
+	margin-top: 2rem;
 	height: 100%;
-	z-index: 99;
+	z-index: 998;
 	background-color: #ffffff;
 	justify-content: center;
 	align-items: center;
@@ -83,9 +91,6 @@
 		transform: translateX(0rem);
 	}
 }
-.desktop-main-nav {
-	display: none;
-}
 
 .docs {
 	padding: 1rem;
@@ -99,6 +104,7 @@
 	* {
 		margin: 0;
 	}
+
 	.brand {
 		font-family: "Pacifico", cursive;
 		padding-left: var(--spacing1);
@@ -117,7 +123,6 @@
 	}
 	.desktop-main-nav {
 		display: flex;
-
 		justify-content: space-between;
 		background-color: #000000;
 		background-image: linear-gradient(
@@ -140,44 +145,26 @@
 		display: none;
 	}
 
-	#side-nav::-webkit-scrollbar {
-		width: 0.2rem;
-	}
-
-	::-webkit-scrollbar-track {
-		box-shadow: inset 0 0 0.5rem rgb(119, 119, 119);
-	}
-
-	::-webkit-scrollbar-thumb {
-		background: rgb(0, 0, 0);
-	}
-
-	::-webkit-scrollbar-thumb:hover {
-		background: rgb(24, 24, 24);
-	}
-
 	.side-nav {
-		margin: 1rem;
-		padding: 1rem;
-		display: flex;
-		height: 60rem;
-		grid-area: side-nav;
+		line-height: 2rem;
+		display: block;
+		margin: 2rem;
+		height: 22rem;
+		padding: 2rem;
 		background-color: #ffffff;
-		width: 15rem;
-		overflow-x: hidden;
+		width: 10rem;
 		overflow-y: scroll;
+		position: fixed;
 	}
 
 	.side-nav li {
-		font-size: 1.5rem;
-		padding: 1rem;
+		font-size: 1.3rem;
 	}
 	.side-nav li a {
-		color: rgb(0, 0, 0);
+		color: rgb(105, 105, 105);
 	}
 	.docs {
 		padding: 1rem;
-
 		color: white;
 	}
 }
