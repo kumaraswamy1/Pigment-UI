@@ -36,7 +36,7 @@
 	width: 16rem;
 	border-radius: 0.5rem;
 	outline: 0;
-	border: 0.1rem solid rgba(131, 131, 131, 0.541);
+	border: 0.1rem solid black;
 }
 .label-resize {
 	position: relative;
@@ -45,7 +45,7 @@
 }
 
 .input input:focus {
-	border: 0.2rem solid rgba(0, 0, 0, 0.541);
+	border: 0.1rem solid var(--primary-light-color);
 	outline: none;
 }
 .input {
@@ -56,8 +56,8 @@
 	align-items: center;
 	border: 0.1rem solid rgba(36, 34, 34, 0.199);
 	border-radius: 16px;
-	background: linear-gradient(145deg, #ffffff, #e6e6e6);
-	box-shadow: 5px 5px 10px #d9d9d9, -5px -5px 10px #ffffff;
+	background: linear-gradient(145deg, #ffffff, #fafafa);
+	box-shadow: 5px 5px 10px #f7f6f6, -5px -5px 10px #ffffff;
 	margin: 1rem;
 }
 
