@@ -79,7 +79,7 @@ a {
 .eCommerce-card h1 {
 	font-size: large;
 	padding-left: 1rem;
-	padding-bottom: 1rem;
+	padding-bottom: 0.5rem;
 	color: #080808ce;
 }
 .eCommerce-card h2 {
