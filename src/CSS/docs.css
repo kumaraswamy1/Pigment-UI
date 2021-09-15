@@ -91,12 +91,9 @@ section {
 	font-size: 2rem;
 	margin: 0.5rem;
 }
-
-section h2 {
-	margin: 0.5rem;
-}
-.p-docs {
-	margin: 0.5rem;
+.margin-docs {
+	margin-bottom: 1rem;
+	margin-left: 0.5rem;
 }
 .show-content {
 	display: block;
