@@ -27,9 +27,9 @@ showComponent.forEach((component) => {
 		}
 	});
 });
-
-hideContent.style.paddingLeft = openNav.offsetWidth + 70 + "px";
-
+if (window.innerWidth > 600) {
+	hideContent.style.paddingLeft = openNav.offsetWidth + 70 + "px";
+}
 function stickyNav() {
 	if (window.scrollY >= stickyMobile) {
 		mobileNav.classList.add("sticky");
