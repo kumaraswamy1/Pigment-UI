@@ -73,7 +73,6 @@ a {
 .eCommerce-card {
 	width: 14rem !important;
 	border: 1.5px solid #cfd2d87a;
-
 	padding-bottom: 1rem;
 }
 .eCommerce-card h1 {
@@ -81,6 +80,10 @@ a {
 	padding-left: 1rem;
 	padding-bottom: 0.5rem;
 	color: #080808ce;
+	padding-inline-end: 1rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 .eCommerce-card h2 {
 	font-size: medium;
