@@ -108,7 +108,7 @@ a {
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
-.remove-btn {
+.eCommerce-card .remove-btn {
 	z-index: 9;
 	border-radius: 50%;
 	padding: 0.5em;
