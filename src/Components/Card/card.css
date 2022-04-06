@@ -96,30 +96,15 @@ a {
 	font-size: small;
 	color: grey;
 }
-.eCommerce-card .badge-primary {
-	background-color: var(--secondary-color);
-	height: 1em;
-	border: none;
-	color: white;
-
-	font-size: small;
-	font-weight: 800;
-	box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-}
-
 .eCommerce-card .remove-btn {
-	border-radius: 50%;
-	padding: 0.5em;
 	width: 2rem;
 	height: 2rem;
+	background-color: whitesmoke;
+	border-radius: 50%;
 	border: none;
-	color: var(--danger-light-color);
-	background-color: #ffffff;
-}
-
-.e-commerce-badges {
-	display: flex;
-	justify-content: space-between;
+	color: rgb(0, 0, 0);
 	position: relative;
-	bottom: 15em;
+	bottom: 17.5em;
+	display: flex;
+	left: 13.5em;
 }
