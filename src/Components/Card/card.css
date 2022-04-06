@@ -101,23 +101,25 @@ a {
 	height: 1em;
 	border: none;
 	color: white;
-	position: relative;
-	bottom: 18.9em;
+
 	font-size: small;
 	font-weight: 800;
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .eCommerce-card .remove-btn {
-	z-index: 9;
 	border-radius: 50%;
 	padding: 0.5em;
 	width: 2rem;
 	height: 2rem;
 	border: none;
 	color: var(--danger-light-color);
+	background-color: #ffffff;
+}
+
+.e-commerce-badges {
+	display: flex;
+	justify-content: space-between;
 	position: relative;
-	left: 11rem;
-	bottom: 17.2em;
-	background-color: #e4e4e442;
+	bottom: 15em;
 }
