@@ -31,13 +31,24 @@ const navClose = document.querySelector(".nav-hide");
 navToggle.addEventListener("click", function () {
 	navClose.classList.toggle("nav-mobile");
 });
-const toastBtn = document.querySelector(".toast-btn");
-const toastHide = document.querySelector(".toast-hide");
-
-toastBtn.addEventListener("click", function () {
-	toastHide.classList.toggle("toast-show");
+const toastButton = document.querySelector(".btn-toast");
+const toast = document.querySelector(".toast");
+const toastClose = document.querySelector(".toast-close");
+const toastProgress = document.querySelector(".toast-progress");
+toastButton.addEventListener("click", () => {
+	toast.classList.add("active");
+	toastProgress.classList.add("active");
+	setTimeout(function () {
+		toast.classList.remove("active");
+	}, 5000);
+	setTimeout(function () {
+		toastProgress.classList.remove("active");
+	}, 5300);
+});
+toastClose.addEventListener("click", () => {
+	toast.classList.remove("active");
 
 	setTimeout(function () {
-		toastHide.classList.remove("toast-show");
-	}, 5000);
+		toastProgress.classList.remove("active");
+	}, 300);
 });

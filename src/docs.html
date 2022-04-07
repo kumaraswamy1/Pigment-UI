@@ -1407,26 +1407,39 @@
         <p class="margin-docs">Toasts are used to display notifications
           on user interaction </p>
         <div class="example-border">
-          <div class="toast center">
-            <button class="btn toast-btn btn-default btn-info">Toast
-              me </button>
+          <div class="toast">
+            <div class="toast-content">
+              <p class="toast-check center">✓</p>
+              <div class="toast-message">
+                <span class="toast-text toast-text1">Success</span>
+                <span class="toast-text toast-text2 ">Item added to the cart</span>
+              </div>
+            </div>
+            <p class="toast-close">✕</p>
+            <div class="toast-progress"></div>
           </div>
-          <div class="toast-hide">
-            <p class="toast-content center">👋 Hi , "I am a
-              toast"</p>
-          </div>
+          <button class="btn btn-default btn-primary btn-toast"> Show Toast</button>
         </div>
       </section>
       <section>
         <div class="highlight-code">
           <pre>
           <code class="html"  id="toast-code" >
-     &lt;div class="toast center"&gt;
-      &lt;button class="btn toast-btn btn-default btn-info"&gt;Info&lt;/button&gt;
-     &lt;/div&gt;
-     &lt;div class="toast-hide"&gt;
-      &lt;p class="toast-content center"&gt;👋 Hi , "I am a toast"&lt;/p&gt;
-     &lt;/div&gt;
+      &lt;div class="toast"&gt;
+      &lt;div class="toast-content"&gt;
+      &lt;p class="toast-check center" &gt;✓ &lt;/p&gt;
+      &lt;div class="toast-message"&gt;
+      &lt;span class="toast-text toast-text1"&gt;
+      Success &lt;/span&gt;
+      &lt;span class="toast-text toast-text2 "&gt;
+      Item added to the cart &lt;/span&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;p class="toast-close" &gt;✕&lt;/p&gt;
+      &lt;div class="toast-progress" &gt; &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;button class="btn btn-default btn-primary btn-toast"&gt; Show Toast &lt;/button&gt;
+      &lt;/div&gt;
           </code>
           </pre>
         </div>
